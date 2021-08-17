@@ -110,13 +110,15 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  /*.header {
+  .header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-content: center;
     justify-content: center;
     text-align: center;
     margin: 2rem 0;
+    font-size: .5rem;
+    grid-gap: .4rem;
   }
   
   a {
@@ -130,7 +132,7 @@ body {
   }
   
   section {
-    margin: 10rem auto;
+    margin: 6rem auto;
   }
   
   section > h2 {
@@ -151,7 +153,7 @@ body {
     width: 60%;
     line-height: 1.5rem;
     letter-spacing: .1rem;
-    font-size: 1rem;
+    font-size: .8rem;
   }
   
   .work__experience ul{
@@ -163,7 +165,7 @@ body {
   }
   
   form {
-    width: 60%;
+    width: 80%;
     margin: 1rem 0;
   }
   
@@ -189,7 +191,27 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
   
-  .footer__logo > img {
+  .footer__logo a > img {
     height: 4rem;
-  }*/
+  }
+  
+  .message {
+    margin: 5rem auto 2rem;
+    width: 50%;
+    font-size: 1rem;
+    color: #878787;
+  }
+  
+  .inline {
+    font-weight: 700;
+  }
+  
+  .back {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #878787;
+    font-weight: 900;
+    text-align: center;
+  }
 }
