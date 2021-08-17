@@ -84,7 +84,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
   
-  .footer__logo > img {
+  .footer__logo a > img {
     height: 4rem;
   }
   
