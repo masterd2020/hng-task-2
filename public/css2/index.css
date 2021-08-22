@@ -75,6 +75,7 @@ body {
     grid-template-columns: 32% 32% 32%;
     grid-gap: 1rem;
     margin: 4rem 0 0 0;
+    width: 100%;
   }
 
   .skills__list > div {
@@ -83,6 +84,7 @@ body {
     border-radius: .5rem;
     padding: 1rem;
     font-family: verdana;
+    width: 100%;
   }
   
   .skills__icon {
@@ -139,10 +141,6 @@ body {
     justify-content: center;
     align-content: center;
     grid-gap: .5rem;
-  }
-
-  .medias > a {
-    //border: 1px solid black;
   }
   
   .icn {
@@ -206,9 +204,19 @@ body {
     box-shadow: 2px 2px 4px #878787;
     padding: 1rem;
   }
-
-
-
+  
+  
+  #work__experience {
+    font-size: .5rem;
+  }
+  
+  #education {
+    font-size: .5rem;
+  }
+  
+  #project {
+    font-size: .5rem;
+  }
    .content {
     width: 90%;
     margin: 1rem auto;
@@ -374,9 +382,11 @@ body {
     display: grid;
     grid-template-columns: 48% 48%;
     grid-gap: .6rem;
+    width: 100%;
   }
 
   .skill > div {
+    width: 100%;
     box-shadow: 2px 2px 4px #878787;
     padding: .5rem;
     text-align: center;
@@ -522,6 +532,18 @@ body {
     line-height: 1.5rem;
   }
   
+  
+  #work__experience {
+    font-size: .5rem;
+  }
+  
+  #education {
+    font-size: .5rem;
+  }
+  
+  #project {
+    font-size: .5rem;
+  }
 
   .message {
     margin: 5rem auto 2rem;
